@@ -1,4 +1,5 @@
 # similar-doctors
+Heroku: https://henry-pan-similar-doctors.herokuapp.com/
 
 This is a simple Ember web app built that displays a list of doctors in a
 network. Clicking on a doctor shows their details along with other similar
