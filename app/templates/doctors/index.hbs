@@ -1,0 +1,7 @@
+<div class="starter-template">
+    <h1>Directory of Doctors</h1>
+</div>
+{{#each model as |doctor|}}
+    {{doctor-listing doctor=doctor}}
+    <hr>
+{{/each}}

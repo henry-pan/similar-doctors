@@ -1,0 +1,16 @@
+body {
+  padding-top: 1.5rem;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.doctor-list{
+  padding: 5px;
+}
+
+.doctor-pic{
+  float: left;
+  padding: 5px 15px 5px 5px;
+}

@@ -1,0 +1,22 @@
+<div class='starter-template'>
+</div>
+
+<div class='doctor-list'>
+    <img src="{{model.doctor.pic}}" alt="{{model.doctor.name}}" class='doctor-pic'/>
+    <h1>{{model.doctor.name}}</h1>
+    <h4>{{model.doctor.specialty}}</h4>
+    <h5>{{model.doctor.area}}</h5>
+    <p>Review Score: <b>{{model.doctor.score}}</b> / 100</p>
+    <p>{{model.doctor.bio}}</p>
+</div>
+<hr>
+
+<div>
+<h1>Doctors similar to {{model.doctor.name}}</h1>
+{{#each sortedContent as |doctor|}}
+    {{#if (doctor-similar-list model.doctor doctor)}}
+    {{doctor-listing doctor=doctor}}
+    <hr>
+    {{/if}}
+{{/each}}
+</div>
