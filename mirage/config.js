@@ -35,7 +35,7 @@ export default function() {
                 specialty: 'Family Medicine',
                 area: 'San Francisco',
                 score: '83',
-                bio: 'An great doctor. Always available to help people in need.'
+                bio: 'A great doctor. Always available to help people in need.'
             }
         },
         {
